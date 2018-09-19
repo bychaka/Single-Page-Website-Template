@@ -1,0 +1,60 @@
+$main-body-color: #333;
+$main-block-color: blue;
+$alt-body-color: white;
+@for $index from 1 through 5 {
+    .size-#{$index}{
+        width: 50px*$index !important;
+        height: 50px*$index !important;
+    }
+}
+@mixin border-radius($radius){
+    border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+}
+
+.block-wrapper {
+    display: flex;
+    flex-direction: row;
+    background-color: $main-body-color;
+    .block {
+        width: 200px;
+        height: 200px;
+    }
+    &.biggest {
+        .block{
+            width: 250px;
+            height: 250px;
+        }
+    }
+}
+
+.block {
+    background-color: $main-block-color;
+    display: block;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    border: 1px solid #cecece;
+    @extend .size-1;
+    @include border-radius(20px);
+}
+
+.title {
+}
+
+.base-font-prooerty {
+    color: $main-body-color;
+    font-size: 20px;
+    margin: 40px auto 80px auto;
+}
+
+h2 {
+    @extend .base-font-prooerty;
+    font-size: 48px;
+}
+
+h3 {
+    @extend .base-font-prooerty;
+    font-size: 24px;
+}
