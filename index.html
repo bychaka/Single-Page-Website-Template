@@ -8,24 +8,71 @@
     <script src="bundle.js"></script>
 </head>
 <body>
-    <div class="some">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque rem assumenda excepturi quas earum maxime praesentium suscipit fuga laborum itaque commodi, ad sequi, voluptas corporis expedita aliquam, totam ratione animi! Quo, facere! Accusamus reprehenderit aperiam soluta veniam eligendi, deleniti quibusdam.
-    <div class="some"></div>
-    Dolore ipsum dignissimos porro, quasi tempore ad vero sit libero. Debitis repellat perspiciatis autem ipsam, doloremque cum veniam amet culpa, dicta nam nemo! Praesentium cumque, tempora quae perspiciatis beatae ea libero eveniet illum! Laborum at, rerum quis eaque doloribus iste?
-    <div class="some"></div>
-    Cupiditate veniam debitis veritatis illo omnis ullam, error consectetur ipsa, ipsum eveniet voluptatem, quaerat blanditiis nesciunt obcaecati ratione nostrum totam nihil! Veniam provident repudiandae placeat voluptatum, dolores ab mollitia, voluptate optio molestiae neque nihil nobis magni magnam quia quibusdam quam.
-    <div class="some">
-    Doloribus et tempore corporis soluta, nobis numquam eos nisi placeat impedit, sed deserunt minus consequuntur optio rem tenetur cum exercitationem? Eligendi explicabo ab expedita architecto in? Nam ipsum, est suscipit aperiam hic similique eius, eaque corrupti quisquam perferendis, magni quasi!
+    <header class="header">
+        <div class="header__logo"></div>
+        <p class="header__title">Be sure you put your feet 
+                <span class="text-bolder">in the right place</span></p>
+    </header>
+    
+    <form action="#" class="form-call">
+        <input type="text" name="zip" placeholder="Enter your zip code">
+        <div class="images-gallery">
+            <img src="https://via.placeholder.com/67x44" alt="this is image icon">
+            <img src="https://via.placeholder.com/67x44" alt="this is image icon">
+            <img src="https://via.placeholder.com/67x44" alt="this is image icon">
+            <img src="https://via.placeholder.com/67x44" alt="this is image icon">
+            <img src="https://via.placeholder.com/67x44" alt="this is image icon">
+            <img src="https://via.placeholder.com/67x44" alt="this is image icon">
+            <img src="https://via.placeholder.com/67x44" alt="this is image icon">
+            <img src="https://via.placeholder.com/67x44" alt="this is image icon">
+            <img src="https://via.placeholder.com/67x44" alt="this is image icon">
+            <img src="https://via.placeholder.com/67x44" alt="this is image icon">
+        </div>
+        <p class="form-call__text">This is Photoshop's version  of Lorem Ipsum.</p>
+        <input type="submit" value="press me">
+    </form>
+
+    <div class="boxes">
+        <div class="boxes-item">
+            <img src="src/assets/images/document.svg" alt="Document">
+            <p class="boxes-item__title">Documents</p>
+            <p class="boxes-item__text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin</p>
+        </div>
+        <div class="boxes-item">
+            <img src="src/assets/images/camera.svg" alt="Document">
+            <p class="boxes-item__title">Photos</p>
+            <p class="boxes-item__text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin</p>
+        </div>
     </div>
-    <div class="some">
-    Sunt alias expedita fugit dolores voluptatem dolor nostrum deleniti molestias quisquam necessitatibus modi numquam aliquid nam, in quaerat? Nihil sint nobis quisquam ratione adipisci laudantium magnam magni atque, in temporibus ab error dolore maiores est ad quibusdam accusamus molestias labore?
-    </div>
-    <ul>
-        <li class="list">item one</li>
-        <li class="list">item 2</li>
-        <li class="list">item 3</li>
-        <li class="list">item 4</li>
-        <li class="list">item 5</li>
-    </ul>
+
+    <section class="main-section">
+        <div class="main-section-item item-tablet">            
+            <h2 class="main-section-item__title">This is a Heading</h2>
+            <p class="main-section-item__text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. </p>
+            <p class="main-section-item__text">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+        </div>
+        <div class="main-section-item item-notebook">            
+            <h2 class="main-section-item__title">This is a Heading</h2>
+            <p class="main-section-item__text">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+            <a class="download" href=#>download</a>
+        </div>
+    </section>
+
+    <section class="map">
+        <div class="map-container"></div>
+        <div class="contact-us">
+            <form action="#" class="contact-us-form">
+                <input type="text" placeholder="Name" name="name">
+                <input type="email" placeholder="Email address" name="mail">
+                <textarea name="message" cols="30" rows="10" placeholder="Message"></textarea>
+                <input type="submit" value="">
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer__text">&copy; Copyright 2013 Css Author, All Rights Reserved.</p>
+    </footer>
+
 </body>
 </html>

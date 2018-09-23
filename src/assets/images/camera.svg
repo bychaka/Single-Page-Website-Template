@@ -1,0 +1,76 @@
+<svg id="Camera" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="101.312" height="127" viewBox="0 0 101.312 127">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c142 79.160924, 2017/07/13-01:06:39        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1 {
+        fill: #e25842;
+        filter: url(#filter);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #f06c57;
+      }
+
+      .cls-3 {
+        fill: #c34733;
+      }
+
+      .cls-4 {
+        fill: #1a9d55;
+        filter: url(#filter-2);
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+    </style>
+    <filter id="filter" x="665.688" y="964" width="101.312" height="127" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="5" in="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood result="flood" flood-color="#b1220a" flood-opacity="0.75"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-2" x="666" y="997.875" width="80.75" height="88.125" filterUnits="userSpaceOnUse">
+      <feImage preserveAspectRatio="none" x="660" y="997.875" width="86.75" height="91.125" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODYuNzUiIGhlaWdodD0iOTEuMTI1IiB2aWV3Qm94PSIwIDAgODYuNzUgOTEuMTI1Ij4KICA8ZGVmcz4KICAgIDxzdHlsZT4KICAgICAgLmNscy0xIHsKICAgICAgICBmaWxsOiB1cmwoI2xpbmVhci1ncmFkaWVudCk7CiAgICAgIH0KICAgIDwvc3R5bGU+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudCIgeDE9IjE0LjkwNCIgeTE9IjkxLjEyNSIgeDI9IjcxLjg0NiIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuMTM1IiBzdG9wLWNvbG9yPSIjZTI1ODQyIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMC44NjUiIHN0b3AtY29sb3I9IiNjMzQ3MzMiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IGNsYXNzPSJjbHMtMSIgd2lkdGg9Ijg2Ljc1IiBoZWlnaHQ9IjkxLjEyNSIvPgo8L3N2Zz4K"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="Rounded_Rectangle_14" data-name="Rounded Rectangle 14" class="cls-1" d="M671.3,964h90.068A5.6,5.6,0,0,1,767,969.576V1080.2a5.6,5.6,0,0,1-5.629,5.57H671.3a5.6,5.6,0,0,1-5.629-5.57V969.576A5.6,5.6,0,0,1,671.3,964Zm-21.841-1.613,16.212,25.806,22.7-25" transform="translate(-665.688 -964)"/>
+  <path class="cls-2" d="M665.674,988.193h21.887V964Z" transform="translate(-665.688 -964)"/>
+  <path class="cls-3" d="M687.561,988.193l-21.887,21.777V988.193h21.887Z" transform="translate(-665.688 -964)"/>
+  <path class="cls-4" d="M746.735,1051.9L710.257,1089H661.621L660,1032.55l28.371-27.42h44.583v10.48h10.538M706.2,997.871l-12.159,12.1h9.728Z" transform="translate(-665.688 -964)"/>
+  <path id="camera-2" data-name="camera" class="cls-5" d="M691.132,1005.01h52.03a5.985,5.985,0,0,1,6,5.97v35.77a5.983,5.983,0,0,1-6,5.96h-52.03a5.983,5.983,0,0,1-6-5.96v-35.77A5.985,5.985,0,0,1,691.132,1005.01Zm16.009-7.946h20.012c1.105,0,2,1.186,2,2.65v4.636c0,1.46-.9,2.65-2,2.65H707.141c-1.105,0-2-1.19-2-2.65v-4.636C705.14,998.25,706.036,997.064,707.141,997.064Zm10.006,13.916a17.885,17.885,0,1,1-18.01,17.88A17.943,17.943,0,0,1,717.147,1010.98Zm0,5.96a11.925,11.925,0,1,1-12.007,11.92A11.966,11.966,0,0,1,717.147,1016.94Zm0,7.95a3.975,3.975,0,1,1-4,3.97A3.987,3.987,0,0,1,717.147,1024.89Zm-8-23.85h16.01v1.99h-16.01v-1.99Z" transform="translate(-665.688 -964)"/>
+</svg>

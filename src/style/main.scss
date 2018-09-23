@@ -14,11 +14,6 @@ $alt-body-color: white;
     -ms-border-radius: $radius;
 }
 
-body {
-    background-color: #333;
-    color: #fff;
-}
-
 .block-wrapper {
     display: flex;
     flex-direction: row;
@@ -67,6 +62,10 @@ h3 {
     background-color: red;
 }
 
-.list {
-    color: blue;
+.boxes {
+    background-color: #fff;
+}
+
+.footer {
+    background-color: #43a06d;
 }
