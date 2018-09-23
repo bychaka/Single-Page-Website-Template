@@ -8,6 +8,7 @@ module.exports = {
     },
     devServer:{
         index:'index.html',
+        watchContentBase: true,
     },
     watch:true,
     module: {

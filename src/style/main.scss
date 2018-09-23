@@ -1,3 +1,4 @@
+@import'./node_modules/reset-css/sass/reset';
 $main-body-color: #333;
 $main-block-color: blue;
 $alt-body-color: white;
@@ -11,6 +12,11 @@ $alt-body-color: white;
     border-radius: $radius;
     -moz-border-radius: $radius;
     -ms-border-radius: $radius;
+}
+
+body {
+    background-color: #333;
+    color: #fff;
 }
 
 .block-wrapper {
@@ -40,9 +46,6 @@ $alt-body-color: white;
     @include border-radius(20px);
 }
 
-.title {
-}
-
 .base-font-prooerty {
     color: $main-body-color;
     font-size: 20px;
@@ -57,4 +60,13 @@ h2 {
 h3 {
     @extend .base-font-prooerty;
     font-size: 24px;
+}
+
+.some {
+    padding: 100px;
+    background-color: red;
+}
+
+.list {
+    color: blue;
 }
