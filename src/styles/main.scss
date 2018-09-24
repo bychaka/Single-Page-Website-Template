@@ -48,3 +48,12 @@ $main-font-family: 'Open Sans';
     font-size: 14px;
 }
 
+//header
+
+.header {
+    background: url(./images/header-bg.jpg) no-repeat;
+    background-size: cover;
+    min-height: 200px;
+    max-height: 800px;
+    padding: 100px 0;
+}
