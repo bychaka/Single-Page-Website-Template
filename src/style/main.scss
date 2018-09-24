@@ -1,7 +1,7 @@
 @import'./node_modules/reset-css/sass/reset';
-$main-body-color: #333;
-$main-block-color: blue;
-$alt-body-color: white;
+@import'./fonts.scss';
+$main-font-family: 'Open Sans';
+
 @for $index from 1 through 5 {
     .size-#{$index}{
         width: 50px*$index !important;
@@ -17,7 +17,7 @@ $alt-body-color: white;
 .block-wrapper {
     display: flex;
     flex-direction: row;
-    background-color: $main-body-color;
+    background-color: #fff;
     .block {
         width: 200px;
         height: 200px;
@@ -31,7 +31,7 @@ $alt-body-color: white;
 }
 
 .block {
-    background-color: $main-block-color;
+    background-color: #fff;
     display: block;
     height: 200px;
     width: 200px;
@@ -41,31 +41,10 @@ $alt-body-color: white;
     @include border-radius(20px);
 }
 
-.base-font-prooerty {
-    color: $main-body-color;
-    font-size: 20px;
-    margin: 40px auto 80px auto;
+.base-font-property {
+    font-family: $main-font-family;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
 }
 
-h2 {
-    @extend .base-font-prooerty;
-    font-size: 48px;
-}
-
-h3 {
-    @extend .base-font-prooerty;
-    font-size: 24px;
-}
-
-.some {
-    padding: 100px;
-    background-color: red;
-}
-
-.boxes {
-    background-color: #fff;
-}
-
-.footer {
-    background-color: #43a06d;
-}
